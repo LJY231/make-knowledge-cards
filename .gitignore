@@ -1,0 +1,30 @@
+# Local credentials and configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local copies installed from skills/make-knowledge-cards
+.agents/skills/make-knowledge-cards/
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.swp
+*.swo
+*~
+
+# Temporary files and Python caches
+*.log
+*.tmp
+*.temp
+*.bak
+__pycache__/
+*.py[cod]
+.venv/
