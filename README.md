@@ -1,6 +1,7 @@
 # make-knowledge-cards
 
 把文章转成便于复习的 Markdown 知识卡片，帮助读者从长文中提取重点、合并重复内容，并通过例子或自测题检查理解。
+适用场景：阅读复习、技术文章整理，以及操作流程学习。
 
 本项目是供 Codex 等能够读取 Skill 指令的智能体使用的指令包。卡片由宿主智能体依据 [SKILL.md](skills/make-knowledge-cards/SKILL.md) 生成；项目没有独立转换程序、命令行入口或 Web 服务。
 
