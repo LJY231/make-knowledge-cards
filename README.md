@@ -84,6 +84,19 @@ Copy-Item -LiteralPath './skills/make-knowledge-cards' -Destination $skillDestin
 
 未安装时仍可显式要求读取 `skills/make-knowledge-cards/SKILL.md`，并附上保存路径。没有正文或文件路径时，Skill 会请求补充输入；文件读取失败时会说明问题。
 
+### 处理真实文章示例
+
+项目提供了带来源信息的《师说》正文，可用下面的提示词体验：
+
+```text
+请读取 skills/make-knowledge-cards/SKILL.md，
+将 tests/inputs/shishuo.md 提炼为知识卡片，
+在对话中返回 Markdown 结果。
+```
+
+已有卡片示例见 [《师说》知识卡片](tests/outputs/shishuo.cards.md)。
+
+
 ## 输入输出示例
 
 输入为上面“处理粘贴的正文”中的两段文字，完整输出示例如下。由于只有两个独立知识点，输出两张卡片：
